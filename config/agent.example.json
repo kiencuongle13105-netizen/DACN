@@ -1,0 +1,7 @@
+{
+  "ai_endpoint": "http://192.168.62.1:1236/v1",
+  "model": "qwen2.5-coder-3b-instruct-awq",
+  "polling_interval": 1.0,
+  "retry_seconds": 10.0,
+  "response_mode": "SIMULATION_ONLY"
+}

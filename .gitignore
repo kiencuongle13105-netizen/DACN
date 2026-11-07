@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+
+.env
+.env.*
+
+*.log
+.pytest_cache/
+.mypy_cache/
+.vscode/
+
+# Runtime data must not be committed
+data/
+logs/
+config/agent.json
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.dpapi
+# Local live EDR runtime
+*.db
+*.sqlite3
+*.dpapi
+config/agent.json
+*.jsonl
+logs/
+data/
+__pycache__/
+.pytest_cache/
