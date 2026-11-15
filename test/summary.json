@@ -1,0 +1,45 @@
+{
+  "total_cases": 100,
+  "eligible": 50,
+  "excluded": {
+    "UNREVIEWED_GROUND_TRUTH": 50
+  },
+  "slm_detection": {
+    "TP": 0,
+    "FP": 0,
+    "TN": 50,
+    "FN": 0,
+    "eligible": 50,
+    "recall": null,
+    "precision": null,
+    "false_positive_rate": 0.0,
+    "accuracy": 1.0
+  },
+  "fast_hold_intervention": {
+    "TP": 0,
+    "FP": 20,
+    "TN": 30,
+    "FN": 0,
+    "eligible": 50,
+    "recall": null,
+    "precision": 0.0,
+    "false_positive_rate": 0.4,
+    "accuracy": 0.6
+  },
+  "time_to_hold_samples": 20,
+  "p50_hold_ms": 1239.898,
+  "p95_hold_ms": 1383.7,
+  "completed_before_hold_known": 0,
+  "completed_before_hold_yes": 0,
+  "completed_before_hold_rate": null,
+  "slm_kill_approved_cases": 0,
+  "real_terminate_cases": 0,
+  "verified_slm_to_terminate_cases": 0,
+  "warnings": [
+    "These are run-level metrics; positive ground truth requires independent behavioral verification.",
+    "No defender intervention can be credited to DACN.",
+    "Empty or unknown evidence is excluded, not silently counted as 0.",
+    "Sysmon is asynchronous: no pre-execution prevention guarantee.",
+    "Completing an Atomic runner is not evidence that its technique executed."
+  ]
+}

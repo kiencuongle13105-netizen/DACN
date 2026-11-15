@@ -1,0 +1,49 @@
+{
+  "total_cases": 100,
+  "atomic_cases": 50,
+  "benign_cases": 50,
+  "launcher_sysmon_verified": 100,
+  "child_guids": 443,
+  "slm_events_in_cases": 183,
+  "slm_events_on_children": 63,
+  "atomic_cases_with_child_slm": 49,
+  "fast_hold_actions": 20,
+  "resume_actions": 20,
+  "terminate_actions": 0,
+  "verified_autonomous_kill_cases": 0,
+  "defender_overlap_cases": 45,
+  "sysmon_eid1_count": 723,
+  "sysmon_eid5_count": 200,
+  "hold_p50_ms": 1239.898,
+  "hold_p95_ms": 1383.7,
+  "hold_samples": 20,
+  "completed_before_hold_yes": 0,
+  "completed_before_hold_known": 20,
+  "completed_before_hold_rate": 0.0,
+  "slm_detection": {
+    "TP": 0,
+    "FP": 0,
+    "TN": 27,
+    "FN": 0,
+    "precision": null,
+    "recall": null,
+    "false_positive_rate": 0.0
+  },
+  "fast_hold_confusion_matrix": {
+    "TN": 17,
+    "FP": 10
+  },
+  "eligible_cases": 27,
+  "excluded_cases": 73,
+  "exclusion_reasons": {
+    "LABEL_NOT_REVIEWED": 50,
+    "EXECUTION_UNVERIFIED": 50,
+    "DEFENDER_AMBIGUOUS_OR_ACTIVE": 48
+  },
+  "caveats": [
+    "A successful Atomic launcher is not verified malicious activity.",
+    "Defender temporal overlap is not causal attribution. Review Defender event details.",
+    "No Sysmon EID5 means completed-before-hold often cannot be measured.",
+    "No authentic SLM kill means autonomous elimination remains unproven."
+  ]
+}
